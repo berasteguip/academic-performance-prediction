@@ -1,4 +1,4 @@
-# Machine Learning Project
+# Academic Performance Prediction: ML Project
 
 Pablo Berástegui Magallón (202311460)
 Mathematical Engineering and Artificial Intelligence
