@@ -1,24 +1,26 @@
-# Proyecto de Aprendizaje Automático
+# Machine Learning Project
+
 Pablo Berástegui Magallón (202311460)
-Ingeniería Matemática e Inteligencia Artificial
+Mathematical Engineering and Artificial Intelligence
 Universidad Pontificia Comillas
 
-### Ficheros principales del proyecto
+## Main project files
 
-- **notebooks/**: Contiene los cuadernos Jupyter (`.ipynb`) utilizados para el análisis y desarrollo del proyecto. Cada cuaderno está documentado y corresponde a una etapa específica del flujo de trabajo:
-    - `exploration.ipynb`: Limpieza, preparación y visualización de los datos.
-    - `models.ipynb`: Implementación y evaluación de todos los modelos.
-    - `test_prep.ipynb`: Preparación de los datos de test para su predicción
-- **data/**: Carpeta con los conjuntos de datos utilizados, tanto en bruto como procesados.
-- **src/**: Código fuente con funciones auxiliares y scripts reutilizables.
-    - `utils.py`: contiene una función hecha para visualizar mejor y unos diccionarios de mapeo
+* **notebooks/**: Contains the Jupyter notebooks (`.ipynb`) used for the analysis and development of the project. Each notebook is documented and corresponds to a specific stage of the workflow:
 
+  * `exploration.ipynb`: Data cleaning, preparation, and visualization.
+  * `models.ipynb`: Implementation and evaluation of all models.
+  * `test_prep.ipynb`: Preparation of the test data for prediction.
+* **data/**: Folder containing the datasets used, both raw and processed.
+* **src/**: Source code with auxiliary functions and reusable scripts.
 
-## Descripción general
+  * `utils.py`: Includes a custom visualization function and mapping dictionaries.
 
-Este proyecto aborda la predicción de la nota final (`T3`) de estudiantes de secundaria a partir de variables sociodemográficas, académicas y de comportamiento. Se han aplicado técnicas de aprendizaje supervisado y no supervisado, utilizando dos enfoques:
+## Overview
 
-- **Modelo (i)**: incluye todas las variables disponibles, incluidas `T1` y `T2` (notas previas).
-- **Modelo (ii)**: excluye `T1` y `T2`, con el objetivo de anticipar el rendimiento antes de que el estudiante haya sido evaluado.
+This project focuses on predicting the final grade (`T3`) of secondary school students using sociodemographic, academic, and behavioral variables. Both supervised and unsupervised machine learning techniques are applied under two modeling approaches:
 
-**Nota**: se ha optado por emplear los códigos de scickit-learn por sencillez, coherencia sintáctica y eficiencia computacional.
+* **Model (i)**: Uses all available variables, including prior grades `T1` and `T2`.
+* **Model (ii)**: Excludes `T1` and `T2`, aiming to anticipate academic performance before the student has been formally assessed.
+
+**Note**: scikit-learn implementations were used for simplicity, syntactic consistency, and computational efficiency.
